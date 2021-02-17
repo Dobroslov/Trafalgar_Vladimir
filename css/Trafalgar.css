@@ -4,14 +4,21 @@ body {
     font-family: mulish, sans-serif;
     margin: 0px;
     padding: 0px;
-    background-color: darkgrey;
 }
-section {
+.healthcare-povider-section {
+    margin-top: 220px;
+    margin-bottom: 220px;
+}
+.healthcare-povider-image {
+    float: left;
+    margin-right: 137px;
+}
+.conteiner {
     margin-left: auto;
     margin-right: auto;
     width: 1120px;
 }
-h2 {
+.title {
     color: black;
     font-size: 36px;
     font-weight: bold;
@@ -20,7 +27,7 @@ h2 {
     margin-bottom: 107px;
     text-align: center;
 }
-h2::after {
+.title::after {
     content: ' ';
     display: block;
     width: 56px;
@@ -51,7 +58,7 @@ li {
 li:last-child {
     margin-right: 0;
 }
-div {
+.article-content {
     padding: 24px 32px 35px;
 }
 h3 {
@@ -63,7 +70,7 @@ h3 {
     margin-top: 0px;
     margin-bottom: 12px;
 }
-p {
+.article-text {
     color: #7D7987;
     font-size: 16px;
     font-weight: 300;
@@ -80,13 +87,13 @@ a {
     margin-bottom: 100;
     text-decoration: none;    
 }
-button {
+.button {
     font-family: inherit;
     font-size: 18px;
     color: #458FF6;
     border-color: #458FF6;
     border-width: 1px;
-    display: block;   
+    display: inline-block;   
     border-style: solid;
     border-radius: 55px;
     padding: 16px 66px;    
