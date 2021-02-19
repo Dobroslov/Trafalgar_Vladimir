@@ -28,10 +28,7 @@ body {
    font-weight: 300;
    margin-bottom: 37px;
 }
-.title-left {
-    text-align: left;
-    margin-bottom: 59px;
-}
+
 .title {
     color: black;
     font-size: 36px;
@@ -40,6 +37,10 @@ body {
     margin-top: 0px;
     margin-bottom: 107px;
     text-align: center;
+}
+.title-left {
+    text-align: left;
+    margin-bottom: 59px;
 }
 .title::after {
     content: ' ';
@@ -51,6 +52,14 @@ body {
     margin-right: auto;
     margin-top: 26px;
 }
+.navigation-link-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F1534;
+    line-height: 1.26;
+    text-decoration: none ;
+}
+.navigation-ul
 ul {
     margin: 0 0 69px;
     padding: 0;        
@@ -98,7 +107,7 @@ a {
     line-height: 1.65;
     font-weight: 600;
     margin-top: 0px;
-    margin-bottom: 100;
+    margin-bottom: 100px;
     text-decoration: none;    
 }
 .button {
