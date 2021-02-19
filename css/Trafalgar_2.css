@@ -1,0 +1,83 @@
+body {
+    width: 1600px;
+    font-family: Mulish, Arial, sans-serif;
+    background-color: dimgrey;
+}
+header {
+    width: 1217px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 56px; 
+    /* оступ сверху от границы боди  */
+    padding-bottom: 80px; 
+    /* оступ снизу до изображения  */
+}
+nav {
+    width: 545px;
+}
+* {
+     box-sizing: border-box; 
+     /*Это ширина нашего 
+    контента вместе с падингом и бордерами 
+    (т.е не расшириться дальше 20+60+20=100, 
+    а не 20+60+20=140рх) ВАЖНО ЭТО УКАЗЫВАТЬ ВЕЗДЕ! 
+    * - это универсальный элемент,который будет давать
+    это значение каждому селектору*/
+}
+.logo {
+    opacity: 1;
+    float: left; 
+    /* обтекание логотипа слева */
+}
+.img-logo {
+    height: 41px;
+    width: 160px;
+}
+nav {
+    float: right; /* обтекание nav справа */
+}
+.clearfix::after {
+    content: ' '; 
+    /* пустое место для завершение обтекания */
+    display: block; 
+    /* создаёт обрыв обтекания потока float блоком пустым */
+    clear: both; 
+    /* пока не понял */
+}
+a {
+    color: #1F1534;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 1.28;
+    font-weight: 400;
+    text-decoration: none; 
+    /* убираю подчёркивание у ссылок */
+}
+li {
+    float: left;
+    margin-right: 40px;
+    padding-top: 9px;
+}
+li:last-of-type {
+    margin-right: 0px; 
+    /* у последнего элемента списков я 
+    убираю маржин, чтоб его не перебрасывало 
+    на новую страницу */
+}
+.navigation-link-text {
+   color: #1F1534;
+   opacity: 1;
+   font-weight: 700;
+}
+.image-tablet {
+    width: 693px;
+    height: 598px;
+    display: inline-block;
+}
+.Virtual_healthcare {
+    width: 1247; 
+    /* задаю ширину секции */
+    margin-left: auto;
+    margin-right: auto;
+    /* выравниваю секцию по центру */
+}
