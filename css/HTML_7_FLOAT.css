@@ -1,0 +1,106 @@
+body {
+    font-family: mulish, arial, sans-serif;
+    width: 1600px;    
+}
+* {
+    box-sizing: border-box; 
+    /*Это ширина нашего 
+   контента вместе с падингом и бордерами 
+   (т.е не расшириться дальше 20+60+20=100, 
+   а не 20+60+20=140рх) ВАЖНО ЭТО УКАЗЫВАТЬ ВЕЗДЕ! 
+   * - это универсальный элемент,который будет давать
+   это значение каждому селектору*/
+}
+.section {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div-1 {
+    width: 952px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-h2-service {
+    font-size: 56px;
+    line-height: 1.56;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 61px;
+}
+.text-h2-service::after {
+    display: block;
+    content: ' ';
+    background-color: black;
+    width: 56px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    /* чёрная черта под н2 */
+}
+.p-text {
+    color:  #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 80px;
+    line-height: 1.67;
+}
+/* ФЛЕКС КОНТЕЙНЕР */
+.flex-cntainer {
+    display: flex;
+    width: 1120px;
+    height: 745px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 69px;
+}
+.list-form {
+    background: #FFFFFF;
+    /* drop shadow */
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.7);
+    border-radius: 20px; 
+}
+.h3-text {
+    font-size: 22px;
+    color: black;
+    line-height: 2.33;    
+    font-weight: 700;
+}
+.text-li {
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75; 
+}
+.div-fore-li {
+    width: 350px;
+    height: 354px;
+    padding-top: 54px;
+    padding-left: 38px;
+    padding-right: 50px;
+    padding-bottom: 47px;
+}
+.img-list {
+    height: 95px;
+    margin-bottom: 20px;
+}
+.button-list {
+    font-family: inherit;
+    color: #458FF6;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 3.33;
+    background-color: white;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    padding: 18px 66px;  
+    text-decoration: none;
+}
+.botton-div {
+    text-align: center;   
+}
